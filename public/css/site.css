@@ -183,10 +183,6 @@ nav .cta:hover{text-decoration:none;opacity:.9}
 .quote{grid-column:1/-1;background:var(--navy);color:#fff;border-radius:6px;padding:56px 64px;margin-top:20px}
 .quote q{font-family:Freeman,sans-serif;font-size:34px;line-height:1.3;quotes:"\201C" "\201D"}
 .quote .qby{font-size:15px;letter-spacing:2px;text-transform:uppercase;color:var(--light);margin-top:24px;font-weight:500}
-.stats{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:40px}
-.stats .n{font-family:Freeman,sans-serif;font-size:56px;color:var(--heritage);line-height:1}
-.stats .l{font-size:15px;color:var(--grey);line-height:1.5;margin-top:8px}
-.orgs .pnote{font-size:16px;color:var(--ink);line-height:1.6;margin-top:24px}
 
 /* EXPERIENCE (organisations page) */
 .exp{background:var(--off);padding:110px 0 120px}
@@ -197,6 +193,14 @@ nav .cta:hover{text-decoration:none;opacity:.9}
 .exp .stat .l{font-size:16.5px;color:var(--grey);line-height:1.6;margin-top:10px}
 .exp .pnote{grid-column:2/-1;font-size:17px;line-height:1.6;color:var(--ink)}
 .exp .quote{margin-top:10px}
+/* navy variant (individuals page): white quote card on navy */
+.exp.navy{background:var(--navy);color:#fff}
+.exp.navy .stat{border-top-color:var(--teal)}
+.exp.navy .stat .n{color:var(--teal)}
+.exp.navy .stat .l{color:rgba(255,255,255,.78)}
+.exp.navy .pnote{color:rgba(255,255,255,.9)}
+.exp.navy .quote{background:#fff;color:var(--navy)}
+.exp.navy .quote .qby{color:var(--heritage)}
 
 /* CLOSE */
 .close{background:var(--navy);color:#fff;padding:120px 0}
